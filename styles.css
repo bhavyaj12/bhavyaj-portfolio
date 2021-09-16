@@ -107,7 +107,8 @@ hr {
 }
 
 .coding .coding-img {
-    max-width: 350px;
+    max-width: 80%;
+    width: 550px;
     display: block;
     margin: auto;
 }
