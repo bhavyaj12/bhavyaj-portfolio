@@ -201,6 +201,7 @@ hr {
 .footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
+    margin-top: 3rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
