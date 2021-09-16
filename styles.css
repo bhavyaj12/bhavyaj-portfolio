@@ -10,7 +10,9 @@
 
 body {
     font-family: 'Lora', serif;
-    margin: 0px;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
 }
 
 /* spaces */
@@ -40,6 +42,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    box-sizing: border-box;
 }
 
 .link-primary {
@@ -56,17 +59,10 @@ hr {
 
 /* lists */
 
-ul {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
 
 .list-non-bullet {
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .list-item-inline {
@@ -91,6 +87,7 @@ ul {
 .navigation .nav-pills {
     text-align: right;
     font-size: 1.1rem;
+    margin: 0.6rem 1rem;
 }
 
 .navigation .link {
@@ -139,6 +136,11 @@ ul {
 .ow {
     background-color: var(--off-white);
 }
+
+.section div {
+    text-align: center;
+}
+
 
 
 
