@@ -166,9 +166,10 @@ hr {
 
 .blog-img {
     max-width: 80%;
-    width: 300px;
+    width: 400px;
     display: block;
     margin: auto;
+    padding-bottom: 0rem;
 }
 
 /* sections */
