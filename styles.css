@@ -6,6 +6,8 @@
     --off-white: #F3F4F6;
 }
 
+
+
 body {
     font-family: 'Lora', serif;
     margin: 0px;
@@ -53,6 +55,15 @@ hr {
 }
 
 /* lists */
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
 
 .list-non-bullet {
     list-style: none;
