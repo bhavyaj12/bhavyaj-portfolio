@@ -16,7 +16,7 @@ body {
 @media (max-width: 900px) {
 body {
     font-family: 'Lora', serif;
-    margin: 0px auto;
+    margin: auto;
     max-width: 95%;
     width: 100%;
     }
@@ -49,7 +49,7 @@ hr {
 /* containers */
 
 .container {
-    padding-left: 1rem;
+    
     padding-right: 1rem;
     font-size: 1.3rem;
 }
