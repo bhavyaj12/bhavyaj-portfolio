@@ -1,2 +1,2 @@
-# neogcamp-lesson-3-live
-Complete Portfolio made using neogcamp lesson 3 
+# Neogcamp Full Portfolio
+Complete Portfolio made during neog.camp level 0, consisting of various projects and blogs.
