@@ -219,3 +219,7 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+code {
+    background-color:antiquewhite;
+}

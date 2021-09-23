@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-            Reading blog 1 | bhavyajoshi 
+            Reading blog 2 | bhavyajoshi 
          </title>
         <link href="/styles.css" rel="stylesheet" />
     </head>
@@ -29,16 +29,93 @@
         </nav>
 
         <header class="coding">
-            <img class="blog-img" src="/images/" />
-            <h1 class="coding-heading">BLOG 2 <span class="coding-heading-inverted">Technical </span></h1>
+            <img class="blog-img" src="/images/blog2code.svg" />
+            <h1 class="coding-heading">A <span class="coding-heading-inverted">beginner’s </span>guide to javascript</h1>
         </header>
         
         <div  class="container container-center-blog">
-        <p>Dummy text: Its function as a filler or as a tool for comparing the visual impression of different typefaces Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody. Dummy texts have been in use by typesetters since the 16th century.</p>
-        <h2>The usefulness of nonsensical content</h2>
-        <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page (layout or type area). For this reason, dummy text usually consists of a more or less random series of words or syllables. This prevents repetitive patterns from impairing the overall visual impression and facilitates the comparison of different typefaces. Furthermore, it is advantageous when the dummy text is relatively realistic so that the layout impression of the final publication is not compromised.</p>
-        <h2>Incomprehensibility or readability? That is the question.</h2>
-        <p>The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin. It contains a series of real Latin words. This ancient dummy text is also incomprehensible, but it imitates the rhythm of most European languages in Latin script. The advantage of its Latin origin and the relative meaninglessness of Lorum Ipsum is that the text does not attract attention to itself or distract the viewer's attention from the layout.</p>
+        <h2>Why JavaScript</h2>
+        <p>JavaScript (JS) fulfilled a great need for websites to be dynamic, and interactive. In fact JS is so interactive that you can play complex games in the browser all coded in it. JS is a dynamic programming language that was invented by Brendan Eich of the Mozilla Foundation in 1995. Did you know that JS is managed by committees that consist of several companies which are actually rivals but work together to help improve the language? Imagine being that powerful! A few of the main features of JS are: 
+            <ul>
+                <li>
+                    It is part of the web platform i.e HTML5 thus it enables you to build powerful applications
+                </li>
+                <li>
+                    It is both functional and object oriented, and is one of the few languages that follow both programming paradigms
+                </li>
+                <li>
+                    It is dynamic in nature and dynamically typed i.e. variable and object properties can hold values of any type
+                </li>
+            </ul>
+        </p>
+        
+        <h2>JavaScript Basics</h2>
+        <p>
+            <ul>
+                <li>
+                    Adding to HTML5: JS can be added to HTML5 in multiple ways: <br><ol><li>
+                        By adding the <pre><code>&ltscript&gt &lt/script&gt</code></pre> tag inside the <pre><code>&lthead&gt &lt/head&gt</code></pre> of an HTML5 document </li><br>
+                        <li>By adding as inline code inside HTML such as by using <code>"onClick"</code> </li><br>
+                        <li>The best way is to add it as an external JS file by using: <pre><code>&ltscript src="app.js"&gt &lt/script&gt</code></pre>
+                        </li></ol>
+                </li><br>
+
+                <li>
+                    Functions in JS: functions in JS are very easy to write as follows:
+                    
+                    <pre><code>function add(a, b) {
+return a + b;
+}</code></pre>
+                    
+                </li><br>
+
+                <li>
+                    document.querySelector(): This is probably one of the most important methods in JS. This method allows you to select an HTML element by using either the class (.class) or the id (#id) of the element. You can then add interactivity to your app easily by functions such as <code>addEventListener()</code> as follows: <br>
+                    <pre><code>const nextButton = document.querySelector("#next-btn"); </code></pre>
+                    <pre><code>nextButton.addEventListener("click", function validateInput() { } </code></pre>
+
+                    </code>
+                </li> <br>
+
+                <li>
+                    JS Promise: Promises in JS is a concept just like promise in real life, it is an object that promises to produce a certain value in the future when required. Promise in JS is used to handle asynchronous events. It enables a proxy value to be created for a certain value that is required and important in the future. Promise concept allow asynchronous methods to work as if they are synchronous, by working with the proxy value. Promises are in three states:
+                    <ol>
+                        <li>
+                            pending: It is the first state where a promise is neither fulfilled nor rejected.
+                        </li>
+                        <li>
+                            fulfilled: It means that the method was successful in completing the operation.
+                        </li>
+                        <li>
+                            rejected: It means that the operation could not be completed successfully, thus the promise has failed
+                        </li>
+                    </ol> <br>
+                    Some important functions used in promises are: 
+                    <ul>
+                        <li>
+                            fetch() : It returns a promise, by informing that execution should be continued instead of waiting for the required data
+                        </li>
+                        <li>
+                            .then(): This is the method which is called when promise is resolved i.e. it tells what to do next if a promise is resolved. To execute some tasks, we can use the format
+                            <pre><code>userPromise.then( () => {
+// task to do
+});</code></pre>
+                        </li>
+                        <li>
+                            .catch(): This method enabled error handling, it is passed if suppose the promise is rejected. This enabled a different response as compared to if the promise was successful. It can written in the following way: 
+                            <pre><code>userPromise.then( () => {
+// task to do on success
+}).catch( () => {
+//task to do on failure
+});</code></pre>
+                        </li>
+                    </ul>	                 
+
+                </li>
+            </ul>
+        </p><br>
+        <p>We have just brushed over very few important topics in JavaScript. JS is a vast language that requires whole books to really understand it, such as the around 500 pages long "Eloquent JavaScript: A Modern Introduction to Programming"!</p>
+
     </div>
 
     <footer class="footer">
